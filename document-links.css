@@ -1,0 +1,30 @@
+.document-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.lesson.accent .document-link {
+  color: var(--ink);
+  border-color: rgba(17, 24, 39, .25);
+}
+
+.document-link:hover {
+  text-decoration: underline;
+}
+
+.timeline article div {
+  grid-template-columns: 120px 1fr;
+}
+
+@media (max-width: 800px) {
+  .timeline article div {
+    grid-template-columns: 1fr;
+  }
+}
