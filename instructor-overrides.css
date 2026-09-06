@@ -1,0 +1,14 @@
+.instructor {
+  grid-template-columns: 1fr;
+}
+
+.instructor h2 {
+  font-size: clamp(2.5rem, 5.2vw, 5.5rem);
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .instructor h2 {
+    font-size: clamp(1.65rem, 8.1vw, 2.8rem);
+  }
+}
